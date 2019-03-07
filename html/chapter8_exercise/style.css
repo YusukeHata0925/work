@@ -66,8 +66,7 @@ main{
 }
 @media screen and (max-width:768px) {
 	main{
-		width: 473px;
-		margin: 50px;
+		width: 440px;
 	}
 	.box{
 		width: 90%;
@@ -75,22 +74,22 @@ main{
 		margin: 20px;
 	}
 	.blog-image1{
-		width: 90%;
+		width: 100%;
 		float: none;
 	}
 	.blog-image2{
-		width: 90%;
+		width: 100%;
 		float: none;
 	}
 	.blog-image3{
-		width: 90%;
+		width: 100%;
 		float: none;
 	}
 	.blog-title{
-		width: 90%;
+		width: 100%;
 		float: none;
 	}
 	.text{
-		width: 90%;
+		width: 100%;
 		float: none;
 	}
