@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+a {
+  text-decoration: none;
+}
+/* clearfixを追加 */
+.clearfix::after {
+	content:"";
+	display: block;
+	clear: both;
+}
+main{
+	width: 960px;
+	margin: 50px auto;
+}
+.box{
+	width: 300px;
+	float: left;
+	margin-right: 30px;
+	padding: 10px;
+	border:  1px solid #eee;
+	position: relative;
+}
+.step{
+	position: absolute;
+	left: 0;
+	top: 0;
+    color: white;
+    background-color: orange;
+    padding: 3px;
+}
+.blog-image1{
+	width: 280px;
+	height: 150px;
+	background-image: url(img/flow01.png);
+	background-size: cover;
+	background-position: bottom;
+	float: left;
+}
+.blog-image2{
+	width: 280px;
+	height: 150px;
+	background-image: url(img/flow02.png);
+	background-size: cover;
+	background-position: bottom;
+	float: left;
+}
+.blog-image3{
+	width: 280px;
+	height: 150px;
+	background-image: url(img/flow03.png);
+	background-size: cover;
+	background-position: bottom;
+	float: left;
+}
+.box:last-child{
+    margin-right: 0;
+}
+.blog-title{
+	margin: 15px 0 5px;
+	line-height: 50px;
+}
+@media screen and (max-width:768px) {
+	main{
+		width: 90%;
+	}
+	.box{
+		width: 100%;
+		float: none;
+		margin: 20px 0;
+	}
+	.blog-image1{
+		width: 100%;
+		float: none;
+	}
+	.blog-image2{
+		width: 100%;
+		float: none;
+	}
+	.blog-image3{
+		width: 100%;
+		float: none;
+	}
+	.blog-title{
+		width: 100%;
+		float: none;
+	}
+	.text{
+		width: 100%;
+		float: none;
+	}
