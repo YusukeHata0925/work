@@ -4,36 +4,42 @@
   box-sizing: border-box;
 }
 
-.main-image{
+.main-visual{
   height: 400px;
   width: 100%;
   background-image: url(img/mv.jpg);
   background-size: cover;
   background-position: bottom;
 }
-main{
-	width: 840px;
-	margin: 50px auto;
-}
-.service{
+
+.headline{
   padding: 20px;
 }
-.text1{
+
+main{
+  width: 840px;
+  margin: 50px auto;
+}
+
+.service1{
   margin-bottom: 30px;
   border-bottom: 1px solid #d1d1d1;
   padding-bottom: 30px;
 }
-.text2{
+
+.service2{
   margin-bottom: 30px;
   border-bottom: 1px solid #d1d1d1;
   padding-bottom: 30px;
 }
-.text3{
+
+.service3{
   margin-bottom: 30px;
   border-bottom: 1px solid #d1d1d1;
   padding-bottom: 30px;
 }
-.text4{
+
+.service4{
   margin-bottom: 30px;
   border-bottom: 1px solid #d1d1d1;
   padding-bottom: 30px;
